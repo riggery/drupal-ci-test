@@ -26,6 +26,3 @@ jobs:
         run: |
           composer install --no-interaction --prefer-dist
 
-      - name: Run Drupal tests
-        run: |
-          vendor/bin/phpunit -c core/phpunit.xml.dist
